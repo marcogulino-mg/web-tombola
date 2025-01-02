@@ -12,8 +12,8 @@ h1 {
 }
 
 .circle {
-  height: 90px;
-  width: 90px;
+  height: 85px;
+  width: 85px;
   display: inline-block;
   background-color: rgb(255, 255, 255);
   border-radius: 9999px;
