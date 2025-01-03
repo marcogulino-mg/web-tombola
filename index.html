@@ -31,7 +31,7 @@
     <!-- CONTAINER PAGE -->
     <div class="container-sm">
       <!-- HEADER -->
-      <div class="row justify-content-center align-items-center bg-danger g-2">
+      <div class="row justify-content-center align-items-center g-2">
         <div class="col text-center">
           <h1>Tombola</h1>
         </div>
@@ -150,24 +150,24 @@
               <div class="circle"><span class="number">90</span></div>
             </div>
           </div>
-          <!-- PERSONAL JS -->
-          <script src="./js/script.js"></script>
         </div>
         <div class="col-3">
           <div class="row justify-content-center align-items-center g-2">
             <div class="col-12 text-center">
               <span>Ultimo numero estratto</span>
             </div>
-            <div id="square" class="col-12"></div>
+            <div id="square" class="col-12 d-flex align-items-center justify-content-center number"></div>
             <div class="col-12 text-center">
-              <button type="button" class="btn btn-warning">Estrai</button>
+              <button id="new-number" type="button" class="btn btn-warning">Estrai</button>
             </div>
             <div class="col-12 text-center">
-              <button type="button" class="btn btn-danger">Termina gioco</button>
+              <button id="new-game" type="button" class="btn btn-danger">Termina gioco</button>
             </div>
           </div>
         </div>
       </div>
+      <!-- PERSONAL JS -->
+      <script src="./js/script.js"></script>
     </div>
   </body>
 </html>
