@@ -1,5 +1,8 @@
 body {
   background-color: rgb(23, 164, 148);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 
 h1 {
@@ -8,7 +11,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 6rem;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .circle {
@@ -23,13 +26,25 @@ h1 {
   cursor: pointer;
 }
 
-/* .circle:active {
-  background-color: rgb(247, 140, 164);
-  box-shadow:-5px 4px 0 rgb(205, 32, 33);
-} */
+#square {
+  height: 130px;
+  width: 130px;
+  background-color: rgb(255, 255, 255);
+}
 
 .number {
-  font-size: 36px;
+  font-size: 2.5rem;
+}
+
+.btn {
+  font-size: 1rem;
   font-weight: bold;
-  color: black;
+  color: rgb(255, 255, 255);
+  --bs-btn-padding-x: 1.5rem;
+  --bs-btn-padding-y: 0.6rem;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.btn:hover {
+  padding: rgb(0, 0, 0);
 }
